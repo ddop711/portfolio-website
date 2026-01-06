@@ -1,0 +1,36 @@
+body {
+  background-color: var(--bg);
+}
+main {
+  font-size: 20px;
+  background-color: var(--bg);
+}
+#index_logo {
+  display: block;
+  margin-top: 50px;
+  margin-inline: auto;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 4px 3px var(--black);
+}
+
+#index_text {
+  margin-top: 50px;
+  margin-inline: 10vw;
+}
+
+#index_btn {
+  background-color: var(--header);
+  width: 170px;
+  height: 80px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+  -webkit-text-stroke: 1px var(--black);
+  border-radius: 10%;
+  border-style: solid;
+
+  margin-block: 2rem;
+  margin-left: 55%;
+}

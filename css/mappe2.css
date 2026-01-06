@@ -1,0 +1,21 @@
+#site {
+  background-color: var(--orange);
+  margin-inline: 22px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+}
+.grid_T2 img {
+  width: 100%;
+}
+.grid_T2 {
+  display: grid;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.T2_text {
+  margin-inline: auto;
+}

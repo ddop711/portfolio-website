@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+:root {
+  --header: #3895ff;
+  --footer: #00326b;
+  --white: #ffffff;
+  --black: #000000;
+  --bg: #f3f3f3;
+  --folder-bg: #c5bc92;
+  --folder: #f8d775;
+  --red: #ff0000;
+  --orange: #ff7300;
+  --yellow: #fff200;
+  --green: #37ff00;
+  --blue: #00b7ff;
+  --purple: #aa00ff;
+} /**********************/
+#logo {
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header);
+  width: 100%;
+  border-bottom: var(--black);
+  border-bottom-style: solid;
+  border-width: 3px;
+}
+.nav {
+  font-size: 1.6rem;
+  font-weight: bold;
+  -webkit-text-stroke: 1.5px var(--black);
+}
+.nav a {
+  margin-right: 3vw;
+  text-decoration: none;
+}
+.nav a:visited {
+  color: var(--white);
+} /*********/
+main {
+  background-color: var(--folder-bg);
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+.top a:link,
+a:visited {
+  color: var(--black);
+}
+.mappe_btns {
+  position: relative;
+  height: 70px;
+  width: 15vw;
+  min-width: 84.3px;
+  max-width: 120px;
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 40px;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  border-bottom-style: none;
+  transition: transform 0.2s ease;
+  z-index: 1;
+  text-decoration: none;
+}
+.mappe_btns:hover {
+  transform: translateY(-15px);
+}
+#mappe_btn1 {
+  background-color: var(--red);
+}
+#mappe_btn2 {
+  background-color: var(--orange);
+}
+#mappe_btn3 {
+  background-color: var(--yellow);
+}
+#mappe_btn4 {
+  background-color: var(--green);
+}
+#mappe_btn5 {
+  background-color: var(--blue);
+}
+#mig_btn {
+  background-color: var(--purple);
+}
+.mappe_btn_text {
+  margin-top: 20px;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 1000;
+  -webkit-text-stroke: 1px var(--black);
+}
+#mappe {
+  position: relative;
+  z-index: 2;
+  background-color: var(--folder);
+  height: 100%;
+  border-block-style: solid;
+  border-width: 2px;
+  margin-top: -15px;
+  padding-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: var(--white);
+  -webkit-text-stroke: 1.5px var(--black);
+}
+.general_text {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-text-stroke: 1.2px var(--black);
+  text-align: center;
+  margin-bottom: 40px;
+} /*********/
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: var(--footer);
+  bottom: 0;
+} /*********/

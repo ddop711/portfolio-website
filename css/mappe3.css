@@ -1,0 +1,23 @@
+#site {
+  background-color: var(--yellow);
+  margin-inline: 22px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.grid_T3 img {
+  width: 100%;
+}
+
+.grid_T3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.T3_text {
+  text-align: left;
+}

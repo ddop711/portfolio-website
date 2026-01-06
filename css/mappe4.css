@@ -1,0 +1,35 @@
+#site {
+  background-color: var(--green);
+  margin-inline: 22px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.grid_T4 img {
+  width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
+.grid_T4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.T4_textRight {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.T4_textLeft {
+  text-align: left;
+}
+.T4_span {
+  grid-column: span 2;
+  margin-inline: auto;
+}

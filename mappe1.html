@@ -5,16 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex">
-    <title>Forside</title>
+    <title>Tema 1</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/mappe1.css" />
-    <link rel="stylesheet" href="css/layout.css" /><!-- Favicon til fanen -->
-    <link rel="icon" type="image/png" href="img/">
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="icon" type="image/png" href="imgs/logo.png">
 </head>
 
 <body>
     <header> <a href="index.html"><img id="logo" src="imgs/logo.png" alt="logo"></a>
-        <div class="nav"> <a href="index.html">Forside</a> <a href="mappe.html">Mappe</a> <a href="index.html">Om
+        <div class="nav"> <a href="index.html">Forside</a> <a href="mappe.html">Mappe</a> <a href="mig.html">Om
                 mig</a> </div>
     </header>
     <main>
@@ -34,21 +35,25 @@
         <div id="mappe">
             <div id="site">
                 <h1>Tema 1 - Introuge</h1>
-                <div class="grid_T1"> <a href="https://ddop711.github.io/Link-til-eget-site/"><img
+                <div class="grid_T1"> <a href="https://ddop711.github.io/Link-til-eget-site/"><img class="pop-hover"
                             src="imgs/T1_foerste_site_ss.png" alt="Første site"></a>
-                    <div class="T1_text textLeft general_text">Tema 1 var meget stille og roligt. Vi fik en overordnet
+                    <div class="T1_text textLeft general_text animationBottom">Tema 1 var meget stille og roligt. Vi fik
+                        en overordnet
                         introduktion til studiet og hvordan man er og bliver en
                         multimediedesigner. Vi lærte f.eks. en lille smule om Github, og hvordan man uploader og deler
                         sin egen hjemmeside
                         igennem der. I kan bl.a. se det allerførste udkast af en hjemmeside jeg fik lavet. </div> <img
-                        class="order1" src="imgs/T1_praesentationskort.png" alt="kort">
-                    <div class="T1_text textRight general_text">Derudover lærte vi også en smule om Figma, hvor alle i
+                        class="order1 animationBottom" src="imgs/T1_praesentationskort.png" alt="kort">
+                    <div class="T1_text textRight general_text animationBottom">Derudover lærte vi også en smule om
+                        Figma, hvor alle i
                         klassen skulle lave et præsentationskort af dem selv. Det her var
                         en mega fed og nem måde at lære hinanden lidt bedre at kende, eftersom vi er så stor en klasse.
-                    </div> <video class="order1" controls>
+                    </div> <video class="order1 animationBottom" controls>
                         <source src=" imgs/T1_video.MOV" type="video/mp4">
                     </video>
-                    <div class="T1_text order1 textLeft general_text">Men det vi brugte allermest tid på, var at lave en
+                    <div class="T1_text order1 textLeft general_text animationBottom">Men det vi brugte allermest tid
+                        på,
+                        var at lave en
                         lille hyggelig ”intro-video” i små grupper som vi blev delt ind i, og
                         det var også en ret god måde at lære hinanden at kende på.
                     </div>
@@ -56,7 +61,13 @@
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="darkmodebtn">
+            <img id="themeIcon" src="imgs/moon.svg" alt="toggle darkmode">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

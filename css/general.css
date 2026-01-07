@@ -146,30 +146,35 @@ h2 {
   text-align: center;
   margin-bottom: 40px;
 }
+.darkmodebtn {
+  padding-top: 20px;
+}
 
 .darkmodebtn img {
-  width: 40px;
+  width: 3rem;
   cursor: pointer;
-  background-color: #aa00ff;
-  border-color: #000000;
+  background-color: var(--bg);
+  border-color: var(--black);
   border-style: solid;
   border-radius: 50%;
+  display: block;
+  margin-inline: auto;
 }
 
 html.dark {
   --header: #3895ff;
-  --footer: #00326b;
+  --footer: #001f44;
   --white: #ffffff;
   --black: #000000;
   --bg: #f3f3f3;
-  --folder-bg: #c5bc92;
-  --folder: #f8d775;
-  --red: #ff0000;
-  --orange: #ff7300;
-  --yellow: #fff200;
-  --green: #37ff00;
-  --blue: #00b7ff;
-  --purple: #aa00ff;
+  --folder-bg: #7a7356;
+  --folder: #a88f4a;
+  --red: #990000;
+  --orange: #994400;
+  --yellow: #8f8800;
+  --green: #1f8f00;
+  --blue: #00668f;
+  --purple: #660099;
 }
 
 footer {

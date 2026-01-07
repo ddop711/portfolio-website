@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial;
+  text-shadow: 2px 1px 2px var(--black);
 }
 :root {
   --header: #3895ff;
@@ -18,7 +19,8 @@
   --green: #37ff00;
   --blue: #00b7ff;
   --purple: #aa00ff;
-} /**********************/
+}
+
 #logo {
   height: 100px;
   margin-left: 20px;
@@ -47,7 +49,7 @@ header {
 .nav a:link,
 .nav a:visited {
   color: var(--white);
-} /*********/
+}
 main {
   background-color: var(--folder-bg);
 }
@@ -76,6 +78,7 @@ a:visited {
   transition: transform 0.2s ease;
   z-index: 1;
   text-decoration: none;
+  box-shadow: 4px 3px 2px var(--black);
 }
 .mappe_btns:hover {
   transform: translateY(-15px);
@@ -115,12 +118,25 @@ a:visited {
   margin-top: -15px;
   padding-bottom: 20px;
 }
+
+#site img,
+video {
+  border-style: solid;
+  border-color: var(--black);
+  box-shadow: 4px 3px 2px var(--black);
+}
+
 h1 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 50px;
   color: var(--white);
   -webkit-text-stroke: 1.5px var(--black);
+}
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  text-shadow: none;
 }
 .general_text {
   color: var(--white);
@@ -156,10 +172,9 @@ html.dark {
   --purple: #aa00ff;
 }
 
-/*********/
 footer {
   height: 100px;
   width: 100%;
   background-color: var(--footer);
   bottom: 0;
-} /*********/
+}

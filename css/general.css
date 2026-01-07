@@ -44,6 +44,7 @@ header {
   margin-right: 3vw;
   text-decoration: none;
 }
+.nav a:link,
 .nav a:visited {
   color: var(--white);
 } /*********/
@@ -128,7 +129,34 @@ h1 {
   -webkit-text-stroke: 1.2px var(--black);
   text-align: center;
   margin-bottom: 40px;
-} /*********/
+}
+
+.darkmodebtn img {
+  width: 40px;
+  cursor: pointer;
+  background-color: #aa00ff;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+html.dark {
+  --header: #3895ff;
+  --footer: #00326b;
+  --white: #ffffff;
+  --black: #000000;
+  --bg: #f3f3f3;
+  --folder-bg: #c5bc92;
+  --folder: #f8d775;
+  --red: #ff0000;
+  --orange: #ff7300;
+  --yellow: #fff200;
+  --green: #37ff00;
+  --blue: #00b7ff;
+  --purple: #aa00ff;
+}
+
+/*********/
 footer {
   height: 100px;
   width: 100%;

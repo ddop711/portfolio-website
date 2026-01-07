@@ -1,6 +1,5 @@
 @media (min-width: 900px) {
   .grid_T1 {
-    max-width: 900px;
     margin-inline: auto;
     padding-inline: 0;
     grid-template-columns: 1fr 1fr;
@@ -39,7 +38,6 @@
     grid-column: span 3;
   }
   .T2_desktop img {
-    max-width: 900px;
     margin-inline: auto;
     display: block;
   }

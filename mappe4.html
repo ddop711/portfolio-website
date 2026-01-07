@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/mappe4.css" />
     <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/animation.css" />
 
     <!-- Favicon til fanen -->
     <link rel="icon" type="image/png" href="img/">
@@ -55,8 +56,8 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis maxime distinctio
                         alias nobis minus vel! Itaque quidem, rerum sequi unde sunt iusto exercitationem, consequatur
                         fugit ratione aliquid repellat commodi.</div>
-                    <img src="imgs/T4_svg.png" alt="svg">
-                    <img src="imgs/T4_forms.png" alt=" forms">
+                    <img class="animationRight" src="imgs/T4_svg.png" alt="svg">
+                    <img class="animationLeft" src="imgs/T4_forms.png" alt=" forms">
                     <div class="T4_textLeft  general_text">forms tekst, Lorem ipsum dolor sit amet consectetur
                         adipisicing
                         elit. Molestiae, voluptatem, ut ipsa inventore fugiat eligendi velit cupiditate delectus, totam
@@ -65,15 +66,16 @@
                         alias nobis minus vel! Itaque quidem, rerum sequi unde sunt iusto exercitationem, consequatur
                         fugit ratione aliquid repellat commodi.</div>
 
-                    <div class="T4_span general_text">emergencysite tekst, Lorem ipsum dolor sit amet consectetur
+                    <div class="T4_span general_text animationBottom">emergencysite tekst, Lorem ipsum dolor sit amet
+                        consectetur
                         adipisicing
                         elit. Molestiae, voluptatem, ut ipsa inventore fugiat eligendi velit cupiditate delectus, totam
                         quis nostrum molestias! Quaerat pariatur tempora esse ducimus blanditiis assumenda nostrum.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis maxime distinctio
                         alias nobis minus vel! Itaque quidem, rerum sequi unde sunt iusto exercitationem, consequatur
                         fugit ratione aliquid repellat commodi.</div>
-                    <a href="https://ddop711.github.io/the_ender_dragon/index.html"><img src="imgs/T4_emergencysite.png"
-                            alt="emergencysite"></a>
+                    <a href="https://ddop711.github.io/the_ender_dragon/index.html"><img class="pop-hover"
+                            src="imgs/T4_emergencysite.png" alt="emergencysite"></a>
 
                     <a href="https://ddop711.github.io/the_ender_dragon/index.html"><img
                             src="imgs/T4_emergencysite_darkmode.png" alt="dark mode"></a>
@@ -83,7 +85,13 @@
         </div>
 
     </main>
-    <footer></footer>
+    <footer>
+        <div class="darkmodebtn">
+            <img id="themeIcon" src="imgs/moon.svg" alt="toggle darkmode">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

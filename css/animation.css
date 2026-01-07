@@ -1,0 +1,66 @@
+/* Animation fra venstre */
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20vw) rotate(-5deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+/* Animation fra højre */
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(20vw) rotate(5deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+/* Animation fra bunden */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Første billede */
+.animationLeft {
+  animation: slide-left 1.2s ease-out both;
+  animation-timeline: view();
+  animation-range: 0% 40%;
+}
+
+/* Andet billede */
+.animationRight {
+  animation: slide-right 1.2s ease-out both;
+  animation-timeline: view();
+  animation-range: 0% 40%;
+}
+
+/* Brug på elementer */
+.animationBottom {
+  animation: slide-up 1.2s ease-out both;
+  animation-timeline: view();
+  animation-range: 0% 40%;
+}
+
+.pop-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.pop-hover:hover {
+  transform: scale(1.05); /* Skalerer billedet 8% større */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* Tilføjer skygge */
+}

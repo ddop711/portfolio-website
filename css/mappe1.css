@@ -14,7 +14,8 @@ video {
 .grid_T1 {
   display: grid;
   width: 100%;
-  padding-inline: 20px;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
 .T1_text {

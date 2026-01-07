@@ -3,7 +3,6 @@
     margin-inline: auto;
     padding-inline: 0;
     grid-template-columns: 1fr 1fr;
-    row-gap: 50px;
   }
   .order1 {
     order: 1;
@@ -13,6 +12,9 @@
   }
   .order3 {
     order: 3;
+  }
+  .order4 {
+    order: 4;
   }
   .textLeft {
     text-align: left;
@@ -26,7 +28,7 @@
   .grid_T2 {
     grid-template-columns: 1fr 2fr;
     column-gap: 40px;
-    row-gap: 50px;
+
     align-items: center;
   }
   .T2_text {
@@ -47,7 +49,7 @@
   }
   .grid_T3 img,
   .grid_T3 a {
-    max-height: 18vw;
+    max-height: 16vw;
     width: auto;
     margin-inline: auto;
   }
@@ -56,9 +58,21 @@
   }
 
   .grid_T4 img {
-    max-height: 700px;
-    max-width: 500px;
+    height: auto;
+    max-width: 600px;
     margin-inline: auto;
     column-gap: 10px;
+  }
+
+  .grid_T5 {
+    margin-inline: auto;
+    padding-inline: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+  #mig_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  #mig {
+    margin-right: 0;
   }
 }

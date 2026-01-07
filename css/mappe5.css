@@ -8,16 +8,20 @@
   border-radius: 0px 0px 8px 8px;
   box-shadow: 2px -1px 2px var(--black);
 }
-.grid_T1 img,
+.grid_T5 img,
 video {
   width: 100%;
+  margin-bottom: 10px;
 }
-.grid_T1 {
+
+.grid_T5 {
   display: grid;
   width: 100%;
   padding-inline: 20px;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
-.T1_text {
+.T5_text {
   margin-inline: auto;
 }

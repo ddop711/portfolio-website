@@ -15,7 +15,8 @@
 .grid_T3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
+  row-gap: 10px;
+  column-gap: 20px;
 }
 
 .T3_text {

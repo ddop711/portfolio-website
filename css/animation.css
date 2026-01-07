@@ -2,11 +2,11 @@
 @keyframes slide-left {
   from {
     opacity: 0;
-    transform: translateX(-20vw) rotate(-5deg);
+    transform: translateX(-20vw);
   }
   to {
     opacity: 1;
-    transform: translateX(0) rotate(0);
+    transform: translateX(0);
   }
 }
 
@@ -14,11 +14,11 @@
 @keyframes slide-right {
   from {
     opacity: 0;
-    transform: translateX(20vw) rotate(5deg);
+    transform: translateX(20vw);
   }
   to {
     opacity: 1;
-    transform: translateX(0) rotate(0);
+    transform: translateX(0);
   }
 }
 
@@ -38,21 +38,21 @@
 .animationLeft {
   animation: slide-left 1.2s ease-out both;
   animation-timeline: view();
-  animation-range: 0% 40%;
+  animation-range: 0% 30%;
 }
 
 /* Andet billede */
 .animationRight {
   animation: slide-right 1.2s ease-out both;
   animation-timeline: view();
-  animation-range: 0% 40%;
+  animation-range: 0% 30%;
 }
 
 /* Brug på elementer */
 .animationBottom {
   animation: slide-up 1.2s ease-out both;
   animation-timeline: view();
-  animation-range: 0% 40%;
+  animation-range: 0% 20%;
 }
 
 .pop-hover {

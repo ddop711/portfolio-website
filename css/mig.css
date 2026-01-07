@@ -1,0 +1,37 @@
+body {
+  background-color: var(--bg);
+}
+
+main {
+  font-size: 20px;
+  background-color: var(--bg);
+}
+
+.mig_text {
+  margin-top: 10px;
+  margin-inline: auto;
+  text-shadow: none;
+  text-align: center;
+  margin-block: auto;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#mig {
+  width: 25rem;
+  display: block;
+  margin-top: 20px;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 4px;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+
+#mig_grid {
+  display: grid;
+  column-gap: 20px;
+}

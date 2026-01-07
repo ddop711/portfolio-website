@@ -14,8 +14,10 @@ main {
   background-color: var(--bg);
 }
 #index_logo {
+  width: 40rem;
   display: block;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 50px;
   margin-inline: auto;
   border-radius: 5%;
   border-style: solid;

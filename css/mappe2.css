@@ -13,6 +13,8 @@
 .grid_T2 {
   display: grid;
   margin-inline: auto;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
 .T2_text {

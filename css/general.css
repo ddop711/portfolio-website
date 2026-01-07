@@ -151,7 +151,7 @@ h2 {
 }
 
 .darkmodebtn img {
-  width: 3rem;
+  width: 3.1rem;
   cursor: pointer;
   background-color: var(--bg);
   border-color: var(--black);
